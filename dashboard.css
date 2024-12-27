@@ -1,0 +1,132 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #004d99;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 2em;
+}
+
+/* Sections */
+section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 0.9em;
+    
+}
+
+table th, table td {
+    text-align: left;
+    padding: 12px 15px;
+}
+
+table th {
+    background-color: #004d99;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+    background-color: #e0f7fa;
+}
+
+table thead tr {
+    border-bottom: 2px solid #004d99;
+}
+
+table td {
+    border-bottom: 1px solid #dddddd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    table th, table td {
+        padding: 10px;
+    }
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Tombol Edit */
+.edit-btn {
+    background-color: #28a745;
+    color: white;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover {
+    background-color: #218838;
+}
+
+/* Buttons (if needed in future) */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004d99;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0066cc;
+}

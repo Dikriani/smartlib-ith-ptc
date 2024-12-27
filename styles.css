@@ -1,0 +1,76 @@
+/* Gaya dasar untuk body */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  height: 100vh;
+  display: flex;
+  background: url('library.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Kontainer login */
+.login-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+/* Judul */
+.login-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Grup form */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Input */
+input[type="text"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #4facfe;
+  outline: none;
+}
+
+/* Tombol */
+button {
+  background: #4facfe;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #00d2fe;
+}
+
+/* Pesan error */
+.error {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+}
